@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gimtool" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gimtool" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gimtool" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="lodepng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lodepng.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngquant/blur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngquant/blur.h" />
+		<Unit filename="pngquant/libimagequant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngquant/libimagequant.h" />
+		<Unit filename="pngquant/mediancut.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngquant/mediancut.h" />
+		<Unit filename="pngquant/mempool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngquant/mempool.h" />
+		<Unit filename="pngquant/nearest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngquant/nearest.h" />
+		<Unit filename="pngquant/pam.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngquant/pam.h" />
+		<Unit filename="pngquant/viter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngquant/viter.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
